@@ -1,0 +1,13 @@
+
+
+body{
+    width: 360px;
+    padding: 7% 0 0;
+    margin: auto 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background: url(/arssert/banner.jpg);
+    background-size:  100%;   
+}

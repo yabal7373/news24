@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<header>
+  <div>
+    <h1 style="text-align: center;">Welcome to <small>code block</small></h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti iusto labore, ipsum iste aliquam ad maiores explicabo sapiente eius et, nihil ea aliquid voluptatum corrupti nulla illum, temporibus unde?</p>
+    {% if session.logged_in == NULL %}
+      <a href="/register" class="btn btn-primary btn-lg">Register</a>
+      <a href="/login"class="btn btn-info btn-lg " >Login</a>
+     {% endif %}
+    </div>
+</header> 
+
+{% endblock %}
